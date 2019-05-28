@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    { "id": "a", "siren": "123456", "name": "Trainline" },
+    { "id": "b", "siren": "567899", "name": "TrustBK" },
+    { "id": "c", "firstName": "Michel", "lastName": "Galibert" },
+    { "id": "d", "firstName": "Jean-Daniel", "lastName": "Guyot" },
+    { "id": "e", "firstName": "Tristan", "lastName": "Pontet" }
+  ],
+  "relationships": [
+    { "fromNode": "a", "toNode": "b", "type": "ECONOMIC" },
+    { "fromNode": "d", "toNode": "b", "type": "CONTROL" },
+    { "fromNode": "c", "toNode": "b", "type": "CONTROL" },
+    { "fromNode": "e", "toNode": "b", "type": "CONTROL" },
+    { "fromNode": "a", "toNode": "a", "type": "CONTROL" },
+    { "fromNode": "a", "toNode": "c", "type": "OTHER" },
+    { "fromNode": "a", "toNode": "d", "type": "OTHER" }
+  ]
+}
