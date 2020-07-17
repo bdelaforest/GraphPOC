@@ -9,7 +9,7 @@
     "@types/lodash": "4.14.132",
     "@types/webcola": "3.2.0",
     "d3": "4.13.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "react": "16.8.6",
     "react-d3-graph": "2.0.2",
     "react-digraph": "6.2.2",
